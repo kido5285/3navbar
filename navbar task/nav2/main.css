@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+body {
+    background-color: #36454F;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 30px 10px;
+    border-bottom: 10px dotted #9C7A4B;
+}
+
+
+li, a, button {
+    font-family: 'East Sea Dokdo', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+ul {
+    margin-left: -300px;
+}
+
+li, a:hover {
+    color: #6A889C;
+}
+
+button {
+    border: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    transition:all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #95BFDB;
+}
